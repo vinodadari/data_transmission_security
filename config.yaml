@@ -1,0 +1,18 @@
+client:
+  gateway_id: 2
+  user_id: 12
+  vault_url: http://localhost:8000
+  vault_username: vinod
+  vault_password: secret
+  target_host: localhost
+  target_port: 8001
+
+
+server:
+  user_id: 11
+  gateway_id: 3
+  vault_url: http://localhost:8000
+  vault_username: admin
+  vault_password: secret
+  bind_host: localhost
+  bind_port: 8001
